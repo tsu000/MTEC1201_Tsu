@@ -1,0 +1,67 @@
+if(x!=5) If X does not equal fuve
+== is a conditional comparison
+Fish...
+generic setup
+function setup() {
+  createCanvas(400,400);
+}
+function draw() {
+  background(0);
+}
+Go to folder tab over libraries 
+make image folder
+add tuna PNG to images 
+Create a p5.image object to store images
+let tuna; //declare a p5.image object called tuna
+
+function preload("images/tuna.png"); //first is folder and / is looking inside the folder for the png name
+
+{
+  tuna = loadImage();
+
+}
+imageMode(CENTER) sets origin point of image in the center of the image
+you display images with image()
+(what image object u wanna place x, y positions, width, height if it is indicated) 
+.width and .height to modify the size of the image 
+image(tuna, width/5, height - height/5); //height-height/5 is 1/5 of the screen from the bottom as opposed to height/5 which would be 1/5 from the top of the screen 
+subject.width
+
+let opacity=0; (opacity values )
+let fade=1; (fade value variable)
+
+function preload()
+{
+  tuna = loadImage(folder/png)
+use preload for only asset loading
+
+make canvas and bg 
+these are all in function setup()
+imageMode CENTER
+textAlign (where the text is aligned LEFT, RIGHT, CENTER)
+textSize(set the size of text by pxl)
+custom text font must also be preloaded in 
+text("word")
+opacity = opacity + fade
+^opacity gets added to fade
+|| <- Or 
+if (opacity>255|| opacity<0)
+{
+  fade=-fade;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
