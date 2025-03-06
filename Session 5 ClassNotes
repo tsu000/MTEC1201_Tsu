@@ -1,6 +1,6 @@
 if(x!=5) If X does not equal fuve
 == is a conditional comparison
-Fish...
+Fish...🐱🐟🐟🐟🐟
 generic setup
 function setup() {
   createCanvas(400,400);
@@ -50,13 +50,40 @@ if (opacity>255|| opacity<0)
   fade=-fade;
 }
 
+fall variable
+used to move Y value of texts
+instead of function mousepress
+if statement mousIsPressed 
+mouseIsPressed -> Hold down mouse
+opacity variable can be applied to fill to make it diff opacirty. 
+to animate text create the variable for them to change off of like position color and opacity. 
+
+switching between two images while using a 3rd variable as a placeholder
+pressing 1 and 2 key to switch between the images 💕✌️
+in setup fish=tuna
+
+if (fish == goldfish) so if the fish is a goldfish draw it smaller bc its fucking huge
+else then if it aint goldfish which means it is tuna set the size like earlier 
 
 
+function ketoressed
+if key 1 fish=tuna and else if key2 fish=goldfish
+fish is the bucket where key 1 and 2 put the tuna and goldfish in 🐡🐡🦀🦀🐡🐡
+
+TIMER
+millis track thge milisextions since when sketch started
+let currentTime= 0 settinf up a variable to traxk millis() cock
+ket timer1 =2000 setting up timer for 2 sexonds in millisecomd time
+let timer 2 =8000 set 8 second timer
 
 
-
-
-
+currentTime = millis() continously update current time variable 
+if currentTIme>timer2 so if current time hits timer 2 time it changes with the if statement
+background red
+print tima 2 is triggeredd
+🫠🫠🫠🫠🫠🫠🫠🫠🫠
+chillll
+imsofucking hunfgry
 
 
 
