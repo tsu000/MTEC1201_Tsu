@@ -1,0 +1,31 @@
+Creating new user defined function
+function takes input and produces output
+EX
+function printHI()
+{
+  print('hello');
+}
+^This does nothing at this state
+function draw ()
+{ printHi();
+}
+//define ur user functions below
+function printHI()
+{
+print('hello');
+print('this is my first function!');
+}
+by setting the function before defining it it works 
+
+fucnction returnNumber()
+{
+ return 5;
+}
+have above in function draw let x=returnNumber
+print(x);
+
+
+
+to draw an icecream
+fill(color)
+triangle(50,200,
